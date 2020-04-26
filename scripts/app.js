@@ -1,4 +1,4 @@
-// Tobias
+// Javascript animasjon for navbar på mobil - Tobias
 const hamburger = document.querySelector(".hamburger");
 const navLinks = document.querySelector("#nav-links");
 const links = document.querySelectorAll("#nav-links li");
@@ -15,7 +15,7 @@ function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
 
-// Lukker dropdown menyen etter en bruker klikker utenfor 
+// Lukker dropdown menyen etter en bruker klikker utenfor - Sondre 
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
     var dropdowns = document.getElementsByClassName("dropdown-content");
