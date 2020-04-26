@@ -63,6 +63,7 @@ if(!empty($_POST["submit"])) {
 
 <h1 id="About"><?php echo $lang['titletwo'] ?></h1>
 
+// Kort skrevet av: Tobias
 <div class="cards-list">
     
     <div class="card1">
@@ -106,6 +107,8 @@ if(!empty($_POST["submit"])) {
     </div>
 </div>
 
+    
+// Kontaktskjema html skrevet av: Tobias
 <div>
         <h1 id="Contact"><?php echo $lang['contact us'] ?></h1>
         <!--- Kontaktskjema -->
@@ -141,6 +144,7 @@ if(!empty($_POST["submit"])) {
     </div>
 </div>
 
+// Footer laget av: Tobias
 <footer class="footer">Stamina, 2020 - USN &copy;  
     <div class="footer-social-links">
         <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
