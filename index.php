@@ -1,6 +1,7 @@
 <?php
 include "BytteSpråk.php";
 
+// Kontaktskjema skrevet av: Tobias
 if(!empty($_POST["submit"])) {
     $recipient="tobiashusebye@gmail.com";
     $subject="Form to email message";
