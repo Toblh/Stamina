@@ -37,7 +37,7 @@ $q = $_GET['q'];
 
 $con = connect();
 
-mysqli_select_db($con,"traning");
+mysqli_select_db($con,"stamina");
 $sql="SELECT name FROM excercise WHERE category = '".$q."'";
 $result = mysqli_query($con,$sql);
 
