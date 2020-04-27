@@ -257,8 +257,7 @@ body {
   /* Sondre */
   #nav-links {
     display:flex;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
-    background-blend-mode: multiply,multiply;
+    background: #333;
     position: fixed; 
     top: 0; 
     width: 100%; 
@@ -389,8 +388,7 @@ h1 {
 .footer {
     min-height: 150px;
     font-size: 20px;
-    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; 
-    background-blend-mode: multiply,multiply;
+    background: #333;
     color: white;
     width: 100%;
     text-align: center;
