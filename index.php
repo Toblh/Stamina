@@ -1,7 +1,6 @@
 <?php
 include "BytteSpråk.php";
 
-// Kontaktskjema skrevet av: Tobias
 if(!empty($_POST["submit"])) {
     $recipient="tobiashusebye@gmail.com";
     $subject="Form to email message";
@@ -28,7 +27,7 @@ if(!empty($_POST["submit"])) {
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
     <script src="https://kit.fontawesome.com/8ea1e6e22d.js" crossorigin="anonymous"></script>
-    <title><?php echo $lang['title'] ?></title>
+    <title>Stamina</title>
 </head>
 
 <body>
@@ -63,7 +62,6 @@ if(!empty($_POST["submit"])) {
 
 <h1 id="About"><?php echo $lang['titletwo'] ?></h1>
 
-// Kort skrevet av: Tobias
 <div class="cards-list">
     
     <div class="card1">
@@ -107,8 +105,6 @@ if(!empty($_POST["submit"])) {
     </div>
 </div>
 
-    
-// Kontaktskjema html skrevet av: Tobias
 <div>
         <h1 id="Contact"><?php echo $lang['contact us'] ?></h1>
         <!--- Kontaktskjema -->
@@ -144,7 +140,6 @@ if(!empty($_POST["submit"])) {
     </div>
 </div>
 
-// Footer laget av: Tobias
 <footer class="footer">Stamina, 2020 - USN &copy;  
     <div class="footer-social-links">
         <a href="#" title="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
